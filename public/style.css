@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: #fff;
+}
+
+.container {
+  width: 92%;
+  max-width: 650px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 16px;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background: #151515;
+  color: white;
+  font-size: 17px;
+  direction: ltr;
+}
+
+button {
+  padding: 0 24px;
+  border: 0;
+  border-radius: 12px;
+  background: #7c3aed;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+#status {
+  margin: 25px 0;
+  color: #bbb;
+}
+
+.result {
+  text-align: right;
+  background: #151515;
+  border: 1px solid #292929;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 12px 0;
+}
+
+.result a {
+  color: #a78bfa;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.result-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.no-results {
+  padding: 25px;
+  color: #aaa;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.footer {
+  margin-top: 50px;
+  color: #666;
+}
